@@ -1,4 +1,4 @@
-# Install Apache | PHP | Mysql | WordPress using Puppet Agent
+## Install Apache | PHP | Mysql | WordPress using Puppet Agent
 
 ### 1. Check the Vagrant configuration file
    - [Vagrantfile](Vagrantfile)
