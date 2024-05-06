@@ -1,9 +1,14 @@
 ## Instalar Apache | PHP | Mysql | WordPress usando Puppet Agent
+Automatizar la instalación de un servidor WordPress, utilizando como servidor destino una máquina virtual gestionada con Vagrant, configurada para provisionar mediante Puppet.
+
+La configuración deberá permitir acceder al servidor y muestre directamente un blog con un tema aplicado por defecto.
+
+---
 
 ### 1. Revisar archivo de configuración de Vagrant
    - [Vagrantfile](Vagrantfile)
 
-### 2. Iniciar Maquina Virtual con Ubuntu server 22.04
+### 2. Iniciar Maquina Virtual con Ubuntu Server 22.04
    - `vagrant init bento/ubuntu-22.04`
    - `vagrant up`
 
