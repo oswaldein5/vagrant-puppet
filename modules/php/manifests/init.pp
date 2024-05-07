@@ -34,7 +34,7 @@ class php {
     require => Exec['enable-mod-php']
   }
 
-  # Reiniciar Apache para que surja efecto la extensión MYSQLI
+  # Reiniciar Apache para que surta efecto la extensión MYSQLI habilitada
   exec { 'reload-apache':
     command => "/usr/sbin/service apache2 reload",
     require => Exec['enable-mod-mysqli-phpini']
