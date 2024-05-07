@@ -24,7 +24,7 @@ class mysql {
     notify  => Service['mysql'],
   }
 
-  # Setear password de usuario root en MySQL
+  # Establecer el password del usuario root en MySQL
   exec { 'set-mysql-password':
     unless => "/usr/bin/mysqladmin -u ${user_root} -p ${password} status",
     command => "/usr/bin/mysqladmin -u ${user_root} password ${password}",
