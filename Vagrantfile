@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
 		vb.memory = "2048"
 	end
 
-	# Provision Puppet Agent
+	# Puppet provision
 	config.vm.provision "shell", inline: <<-SHELL
 		sudo wget https://apt.puppet.com/puppet7-release-focal.deb
 		sudo dpkg -i puppet7-release-focal.deb
