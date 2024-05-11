@@ -19,6 +19,8 @@ The configuration should allow access to the server and directly display a blog 
    - [Vagrantfile](Vagrantfile)
 
 ### 4. Start Virtual Machine with Ubuntu Server 22.04
-   - `vagrant init bento/ubuntu-22.04`
-   - `vagrant up`
-   - At the end we make a test in the browser: `http://localhost:8080`
+```sh
+vagrant init bento/ubuntu-22.04
+vagrant up
+http://localhost:8080
+```

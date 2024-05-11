@@ -19,6 +19,8 @@ La configuración deberá permitir acceder al servidor y muestre directamente un
    - [Vagrantfile](Vagrantfile)
 
 ### 4. Iniciar Maquina Virtual con Ubuntu Server 22.04
-   - `vagrant init bento/ubuntu-22.04`
-   - `vagrant up`
-   - Al finalizar hacemos un test en el browser: `http://localhost:8080`
+```sh
+vagrant init bento/ubuntu-22.04
+vagrant up
+http://localhost:8080
+```
